@@ -121,6 +121,10 @@ header a{
 .thumbnail .item .content .description{
     font-weight: 300;
 }
+
+.des{
+    font-size: 2em;
+}
 /* arrows */
 .arrows{
     position: absolute;

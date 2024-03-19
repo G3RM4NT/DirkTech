@@ -47,3 +47,51 @@ function showSlider(type){
         next.click();
     }, timeAutoNext)
 }
+
+/*CONTÀCTANOS*/ 
+var txtName = document.getElementById("nombre");
+var txtMail = document.getElementById("email");
+
+function Limpiar() {
+    document.getElementById("nombre").value = "";
+    document.getElementById("email").value = "";
+    document.getElementById("mensaje").value = "";
+}
+
+function Exito() {
+    Swal.fire({
+        title: "Éxito",
+        text: "Se registró satisfactoriamente",
+        icon: "success",
+        iconColor: "#ff0000",
+        confirmButtonColor: "#ff0000",
+        color: "#000",
+        focusConfirm: false,
+      });
+      Limpiar();
+}
+
+// function CamposVacios()
+// {
+//   Swal.fire({
+//     title: "¡Atención!",
+//     text: "Ingrese los datos solicitados para completar el proceso",
+//     icon: "warning",
+//     iconColor: "#ff0000",
+//     confirmButtonColor: "#ff0000",
+//     color: "#000",
+//     focusConfirm: false
+//   });
+//   return;
+// }
+
+
+function alertContactanos() {
+//    if(txtName.value == ""){
+//     CamposVacios();
+//    }
+//    else {
+
+//    }
+    Exito();
+}
