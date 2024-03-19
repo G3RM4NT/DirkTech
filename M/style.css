@@ -23,6 +23,11 @@ header a{
     color: #eee;
     margin-right: 40px;
 }
+header img {
+    float: left;
+    margin-top: 3%;
+    margin-left: 0%;
+}
 /* carousel */
 .carousel{
     height: 100vh;

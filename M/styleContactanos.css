@@ -19,6 +19,12 @@ header{
 header a{
     color: #000000;
     margin-right: 40px;
+    text-decoration: none;
+}
+header img {
+    float: left;
+    margin-top: 3%;
+    margin-left: 0%;
 }
 .container-form{
     width: 100%;
